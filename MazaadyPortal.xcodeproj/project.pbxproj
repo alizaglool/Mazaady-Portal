@@ -41,6 +41,7 @@
 		F860FBB52DA8A1460031BAE5 /* ProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F860FBB42DA8A1460031BAE5 /* ProfileViewController.xib */; };
 		F860FBB62DA8A1460031BAE5 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F860FBB32DA8A1460031BAE5 /* ProfileViewController.swift */; };
 		F860FBB82DA8A1550031BAE5 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F860FBB72DA8A1550031BAE5 /* UserModel.swift */; };
+		F86DED072DB452E500201831 /* UserModelStub.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86DED052DB452E500201831 /* UserModelStub.swift */; };
 		F8BA6DC52DA8158E002E1026 /* BaseAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8BA6DB82DA8158E002E1026 /* BaseAPI.swift */; };
 		F8BA6DC62DA8158E002E1026 /* Encodable+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8BA6DBE2DA8158E002E1026 /* Encodable+extension.swift */; };
 		F8BA6DC72DA8158E002E1026 /* ProductAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8BA6DB52DA8158E002E1026 /* ProductAPI.swift */; };
@@ -136,6 +137,7 @@
 		F860FBB32DA8A1460031BAE5 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		F860FBB42DA8A1460031BAE5 /* ProfileViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileViewController.xib; sourceTree = "<group>"; };
 		F860FBB72DA8A1550031BAE5 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		F86DED052DB452E500201831 /* UserModelStub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModelStub.swift; sourceTree = "<group>"; };
 		F8BA6DB52DA8158E002E1026 /* ProductAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductAPI.swift; sourceTree = "<group>"; };
 		F8BA6DB62DA8158E002E1026 /* ProductTarget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductTarget.swift; sourceTree = "<group>"; };
 		F8BA6DB82DA8158E002E1026 /* BaseAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseAPI.swift; sourceTree = "<group>"; };
@@ -490,6 +492,14 @@
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
+		F86DED062DB452E500201831 /* Stubs */ = {
+			isa = PBXGroup;
+			children = (
+				F86DED052DB452E500201831 /* UserModelStub.swift */,
+			);
+			path = Stubs;
+			sourceTree = "<group>";
+		};
 		F8BA6DB72DA8158E002E1026 /* API */ = {
 			isa = PBXGroup;
 			children = (
@@ -633,6 +643,7 @@
 			isa = PBXGroup;
 			children = (
 				F8EA280D2DABEFEB0000C648 /* Test */,
+				F86DED062DB452E500201831 /* Stubs */,
 				F8EA280C2DABEFE50000C648 /* Mock */,
 			);
 			path = ProfileTests;
@@ -853,6 +864,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F86DED072DB452E500201831 /* UserModelStub.swift in Sources */,
 				F8EA28172DABF79C0000C648 /* MockProductAPI.swift in Sources */,
 				F8EA281D2DABF7E10000C648 /* MockHomeCoordinator.swift in Sources */,
 				F8EA28152DABF6BD0000C648 /* ProfileViewModelTests.swift in Sources */,
